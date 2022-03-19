@@ -23,7 +23,7 @@ const Gallery = () => {
   };
 
   return (
-    <div className="app__gallery flex__center">
+    <div id="gallery" className="app__gallery flex__center">
       <div className="app__gallery-content">
         <SubHeading title="Instagram" />
         <h1 className="headtext__cormorant">Photo Gallery</h1>
@@ -32,7 +32,8 @@ const Gallery = () => {
           style={{ color: "#AAAAAA", marginTop: "2rem" }}
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
-          mattis ipsum turpis elit elit scelerisque egestas mu.
+          mattis ipsum turpis elit elit scelerisque egestas mu. Morbi Sit Amet
+          Lacinia Sapien, Id Mattis Neque. Duis Metus.
         </p>
         <button type="button" className="custom__button">
           View More

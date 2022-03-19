@@ -11,7 +11,7 @@ const Footer = () => (
     <FooterOverlay />
     <Newsletter />
 
-    <div className="app__footer-links">
+    <div className="app__footer-links" id="contact">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">1041 Tremont Street, Boston, MA 02120</p>
